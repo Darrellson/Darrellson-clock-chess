@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clock.css">
+    <title>Clock</title>
+</head>
+<body>
+    <div class="clock">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+
+
+    </div>
+
+
+    <div class="container" >
+        <div class="div1">
+            <div class="div" id="row8" ondrop="drop(event)" ondragover="allowDrop(event)">
+                 <div class="box" id="b801" draggable="true" ondragstart="drag(event)">Brook</div>              <!--draggable="true" ondragstart="drag(event, 'black')" ondrop="drop(event)" ondragover="allowDrop(event)"-->  
+                 <div class="box" id="b802"  draggable="true" ondragstart="drag(event)">Bknight</div>
+                 <div class="box" id="b803"  draggable="true" ondragstart="drag(event)">Bbishop</div>
+                 <div class="box" id="b804"  draggable="true" ondragstart="drag(event)">Bqueen</div>
+                 <div class="box" id="b805"  draggable="true" ondragstart="drag(event)">Bking</div>
+                 <div class="box" id="b806"  draggable="true" ondragstart="drag(event)">Bbishop</div>
+                 <div class="box" id="b807"  draggable="true" ondragstart="drag(event)">Bknight</div>
+                 <div class="box" id="b808"  draggable="true" ondragstart="drag(event)">Brook</div>
+            </div>
+
+            <div class="div" id="row7" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b701" draggable="true" ondragstart="drag(event)">Bpawn</div>
+                <div class="box" id="b702" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b703" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b704" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b705" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b706" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b707" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+                <div class="box" id="b708" ondrop="drop(event)" ondragover="allowDrop(event)">Bpawn</div>
+            </div>
+
+            <div class="div" id="row6" >
+                <div class="box" id="b601" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b602" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b603" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b604" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b605" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b606" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b607" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box" id="b608" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            </div>
+
+            <div class="div" id="row5" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b501" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b502" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b503" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b504" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b505" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b506" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b507" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b508" draggable="true" ondragstart="drag(event)"></div>
+            </div>
+
+            <div class="div" id="row4" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b401" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b402" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b403" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b404" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b405" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b406" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b407" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b408" draggable="true" ondragstart="drag(event)"></div>
+            </div>
+
+            <div class="div" id="row3" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b301" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b302" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b303" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b304" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b305" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b306" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b307" draggable="true" ondragstart="drag(event)"></div>
+                <div class="box" id="b308" draggable="true" ondragstart="drag(event)"></div>
+            </div>
+
+            <div class="div" id="row2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b201" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b202" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b203" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b204" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b205" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b206" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b207" draggable="true" ondragstart="drag(event)">Wpawn</div>
+                <div class="box" id="b208" draggable="true" ondragstart="drag(event)">Wpawn</div>
+            </div>
+
+            <div class="div" id="row1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="box" id="b101" draggable="true" ondragstart="drag(event)">Wrook</div>
+                <div class="box" id="b102" draggable="true" ondragstart="drag(event)">Wknight</div>
+                <div class="box" id="b103" draggable="true" ondragstart="drag(event)">Wbishop</div>
+                <div class="box" id="b104" draggable="true" ondragstart="drag(event)">Wqueen</div>
+                <div class="box" id="b105" draggable="true" ondragstart="drag(event)">Wking</div>
+                <div class="box" id="b106" draggable="true" ondragstart="drag(event)">Wbishop</div>
+                <div class="box" id="b107" draggable="true" ondragstart="drag(event)">Wknight</div>
+                <div class="box" id="b108" draggable="true" ondragstart="drag(event)">Wrook</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="ches.js"></script>
+</body>
+</html>
